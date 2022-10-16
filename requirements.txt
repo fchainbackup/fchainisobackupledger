@@ -61,7 +61,6 @@ six==1.16.0
 soupsieve==2.3.2.post1
 sqlparse==0.4.2
 Twisted==22.8.0
-
 txaio==22.2.1
 typing-extensions==4.4.0
 tzdata==2022.1
