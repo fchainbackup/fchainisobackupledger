@@ -1,0 +1,2 @@
+web: daphne investment_site.asgi:application --port $PORT --bind 0.0.0.0 -v2
+celeryworker2: celery -A channels_celery_heroku_project.celery worker & celery -A channels_celery_heroku_project beat -l INFO & wait -n
